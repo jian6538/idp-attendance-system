@@ -1,0 +1,24 @@
+# Core face recognition stack
+# Compatible with Python 3.10+ on Windows/Mac (development)
+# and Raspberry Pi 5 / ARM64 (deployment, CPU-only)
+
+# PyTorch CPU build — install with:
+#   pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2
+torchvision==0.17.2
+
+# MTCNN + InceptionResnetV1 (FaceNet)
+facenet-pytorch==2.5.3
+
+# Computer vision
+opencv-python==4.9.0.80
+
+# Numerical + data handling
+numpy==1.26.4
+pandas==2.2.1
+
+# Pillow is pulled in by facenet-pytorch but pinned here for reproducibility
+Pillow==10.2.0
+
+# Anti-spoofing inference (ONNX Runtime, CPU-only, no CUDA needed)
+onnxruntime==1.17.3
