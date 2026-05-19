@@ -1,0 +1,8 @@
+course_code,course_name,day,start_time,end_time
+EE4001,Integrated Design Project,Monday,08:00,10:00
+EE4001,Integrated Design Project,Wednesday,08:00,10:00
+EE3001,Electronics II,Tuesday,10:00,12:00
+EE3001,Electronics II,Thursday,10:00,12:00
+fda,fda,Saturday,08:00,09:00
+fda,fda,Saturday,23:00,09:00
+fda,fda,Saturday,23:00,23:30

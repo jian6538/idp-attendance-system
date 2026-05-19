@@ -1,0 +1,15 @@
+{
+  "server_url": "http://127.0.0.1:5000",
+  "api_key": "device-local-key",
+  "mode": "live_csv",
+  "local_csv_path": "raspberry_pi_detections.csv",
+  "local_csv_dir": "attendance_logs",
+  "csv_glob": "attendance_*.csv",
+  "unsent_csv_path": "raspberry_pi_unsent.csv",
+  "state_path": "idp_uploader_state.json",
+  "poll_seconds": 5,
+  "batch_size": 50,
+  "device_id": "raspberry-pi-01",
+  "default_class_name": "EEE4948",
+  "default_status": "detected"
+}

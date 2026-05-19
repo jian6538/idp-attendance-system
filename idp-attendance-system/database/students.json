@@ -1,0 +1,17 @@
+[
+  {
+    "name": "CHAN JIAN XIANG",
+    "matrix_number": "225473",
+    "embedding_path": "embeddings/225473.npy"
+  },
+  {
+    "name": "TAN KAI JIAN",
+    "matrix_number": "223248",
+    "embedding_path": "embeddings/223248.npy"
+  },
+  {
+    "name": "GAN LI YANG",
+    "matrix_number": "225538",
+    "embedding_path": "embeddings/225538.npy"
+  }
+]
