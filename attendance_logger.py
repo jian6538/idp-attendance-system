@@ -16,6 +16,8 @@ import os
 from datetime import datetime
 from typing import List, Optional
 
+from server_uploader import upload_attendance
+
 LOG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "attendance_logs")
 
 CSV_HEADERS = [
@@ -102,5 +104,8 @@ def log_attendance(
             writer.writerow(row)
     except OSError:
         return False
+
+    # Send to central server in background (non-blocking)
+    upload_attendance(name, course_code, now.strftime("%Y-%m-%d %H:%M:%S"))
 
     return True
